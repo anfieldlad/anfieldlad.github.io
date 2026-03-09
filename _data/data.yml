@@ -3,103 +3,138 @@
 #
 
 sidebar:
-    position: right # position of the sidebar : left or right
-    about: True # set to False or comment line if you want to remove the "how to use?" in the sidebar
-    education: True # set to False if you want education in main section instead of in sidebar
+  position: right # position of the sidebar : left or right
+  about: True # set to False or comment line if you want to remove the "how to use?" in the sidebar
+  education: True # set to False if you want education in main section instead of in sidebar
 
-    # Profile information
-    name: Bobby Ananta Dioriza
-    tagline: Software Engineer
-    avatar: 1597739542302.jpg  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+  # Profile information
+  name: Bobby Ananta Dioriza
+  tagline: Software Engineer
+  avatar: 1597739542302.jpg  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
-    # Sidebar links
-    email: bobby@dioriza.com
-    phone: 62
-    timezone: Jakarta (GMT+7)
-    citizenship: Indonesia
-    website: bobby.dioriza.com #do not add http://
-    linkedin: bobananta
-    github: anfieldlad
-    telegram: # add your nickname without '@' sign
-    gitlab:
-    bitbucket:
-    twitter: '@bobby_dioriza'
-    stack-overflow: # Number/Username, e.g. 123456/alandoe
-    goodreads: # Number-Username, e.g. 123456-alandoe
+  # Sidebar links
+  email: bobby@dioriza.com
+  phone: 62
+  timezone: Jakarta (GMT+7)
+  citizenship: Indonesia
+  website: https://bobby.dioriza.com # Include the full website URL, including "http://" or "https://".
+  linkedin: bobananta
+  xing:
+  github: anfieldlad
+  telegram: # add your nickname without '@' sign
+  gitlab:
+  bitbucket:
+  bluesky:
+  twitter: '@bobby_dioriza'
+  stack-overflow: # Number/Username, e.g. 123456/alandoe
+  codewars:
+  goodreads: # Number-Username, e.g. 123456-alandoe
+  mastodon: # Please include your full Mastodon link here.
+  hackerrank: # Please provide your HackerRank username.
+  leetcode: # Please provide your LeetCode username.
+  pdf: # Add a PDF link here if you want to include a PDF custom version in your resume.
 
-    languages:
-      title: Languages
-      info:
-        - idiom: Indonesia
-          level: Native
+  languages:
+    title: Languages
+    info:
+    - idiom: Indonesia
+      level: Native
 
-        - idiom: English
-          level: Professional
+    - idiom: English
+      level: Professional
 
 career-profile:
-    title: Career Profile
-    summary: |
-      A software engineer with multiple years of experience in web, mobile, and desktop application development. I had work mostly in financial industry like banking, multifinance, and insurance.
+  title: Career Profile
+  summary: |
+    A software engineer with multiple years of experience in web, mobile, and desktop application development. I had work mostly in financial industry like banking, multifinance, and insurance.
 education:
-    title: Education
-    info:
-      - degree: BEng in Informatics
-        university: Telkom University
-        time: 2008 - 2013
+  title: Education
+  info:
+  - degree: BEng in Informatics
+    university: Telkom University
+    time: 2008 - 2013
 
 experiences:
-    title: Experiences
-    info:
-      - role: Technical Lead
-        time: 2021 - Present
-        company: Adira Finance
-        details: |
-            - Ad1Survey is a mobile application, a part of Adira's Loan Origination System. As a tech lead, I’m supervising a team consist of 8 software developers. The supervising role includes reviewing code, analysis and assigning task to developers. AdiraOne Survey application is built using Flutter (frontend) and Java - Spring Boot (backend).
-            - Ad1Checking is a part of Credit Decision Engine in Adira, also supporting Adira's Loan Origination System. It's a backend system built with Java - Spring Boot. The team consist of 4 software developers and 2 quality controls.
-      - role: Senior Software Developer
-        time: 2018 - 2021
-        company: Jagadiri (PT Central Asia Financial)
-        details: |
-            - Maintain existing core insurance system (VB .NET, MySQL).
-            - Involved in development of new core insurance system (Java, MongoDB).
-            - Develop migration data system, move parameter and transaction data from MySQL to MongoDB.
-      - role: System Analyst
-        time: 2016 - 2018
-        company: PT Bank Sahabat Sampoerna
-        details: |
-            - Maintain Loan Origination System (LOS) for Sampoerna Financial Group (Bank Sahabat Sampoerna and Sahabat UKM). Involved in translating user requirement to technical specs and also development (C# .NET, SQL Server). 
-            - Analysis and Develop E-KTP gateway between Bank Sampoerna's internal systems and Dukcapil.
-      - role: Software Developer
-        time: 2013 - 2016
-        company: Multiple IT Outsourcing
-        details: |
-            Placement as Software Developer in several clients :
-            - PT. Indonesia Infrastructure Finance
-            - PT. Bank Sahabat Sampoerna
-            - PT. Tower Bersama Infrastructure
-            - PT. Fujitsu Indonesia
+  title: Experiences
+  info:
+  - role: Technical Lead
+    time: 2021 - Present
+    company: Adira Finance
+    details: |
+        - Ad1Survey is a mobile application, a part of Adira's Loan Origination System. As a tech lead, I’m supervising a team consist of 8 software developers. The supervising role includes reviewing code, analysis and assigning task to developers. AdiraOne Survey application is built using Flutter (frontend) and Java - Spring Boot (backend).
+        - Ad1Checking is a part of Credit Decision Engine in Adira, also supporting Adira's Loan Origination System. It's a backend system built with Java - Spring Boot. The team consist of 4 software developers and 2 quality controls.
+  - role: Senior Software Developer
+    time: 2018 - 2021
+    company: Jagadiri (PT Central Asia Financial)
+    details: |
+        - Maintain existing core insurance system (VB .NET, MySQL).
+        - Involved in development of new core insurance system (Java, MongoDB).
+        - Develop migration data system, move parameter and transaction data from MySQL to MongoDB.
+  - role: System Analyst
+    time: 2016 - 2018
+    company: PT Bank Sahabat Sampoerna
+    details: |
+        - Maintain Loan Origination System (LOS) for Sampoerna Financial Group (Bank Sahabat Sampoerna and Sahabat UKM). Involved in translating user requirement to technical specs and also development (C# .NET, SQL Server). 
+        - Analysis and Develop E-KTP gateway between Bank Sampoerna's internal systems and Dukcapil.
+  - role: Software Developer
+    time: 2013 - 2016
+    company: Multiple IT Outsourcing
+    details: |
+        Placement as Software Developer in several clients :
+        - PT. Indonesia Infrastructure Finance
+        - PT. Bank Sahabat Sampoerna
+        - PT. Tower Bersama Infrastructure
+        - PT. Fujitsu Indonesia
+        
+certifications:
+  title: Certifications
+  list:
+  
+projects:
+  title: Projects
+  intro: >
+    You can list your side projects in this section. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+  assignments:
+  
+oss:
+  title: OSS Contributions
+  intro: >
+    You can list your open source software contributions in this section. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+  contributions:
+  
+publications:
+  title: Publications
+  intro: |
+    You can list your publications in this section. Lorem ipsum dolor sit
+    amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
+    bibendum fringilla a eu lectus.
+  papers:
+  
+recommendations:
+  title: Recommendations
+  list:
 
 skills:
-    title: Skills &amp; Proficiency
+  title: Skills &amp; Proficiency
 
-    toolset:
-      - name: .NET
-        level: 90%
-        
-      - name: Java
-        level: 80%
+  toolset:
+  - name: .NET
+    level: 90%
+    
+  - name: Java
+    level: 80%
 
-      - name: Golang
-        level: 60%
+  - name: Golang
+    level: 60%
 
-      - name: MS SQL Server
-        level: 95%
+  - name: MS SQL Server
+    level: 95%
 
-      - name: Postgres
-        level: 85%
+  - name: Postgres
+    level: 85%
 
-      - name: MongoDB
-        level: 80%
+  - name: MongoDB
+    level: 80%
 
 footer: >
-    Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
+  Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
